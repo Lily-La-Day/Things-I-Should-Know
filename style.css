@@ -2,4 +2,43 @@
 
 * {
   background-color: black;
+  box-sizing: border-box;
+}
+
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-row: 1;
+  width: 100vw;
+}
+
+div.grid {
+  grid-column: 1;
+grid-row: 1;
+
+
+  width: 100vw;
+ height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.grid-item {
+  width: 5px;
+  height: 5px;
+  border: 0.1em solid white;
+  cursor: pointer;
+fill: black;
+align-content: center;
+justify-content: center;
+background-color: black;
+}
+
+div.grid-item:hover {
+
+  cursor: pointer;
+fill: white;
+
+background-color: white;
 }
