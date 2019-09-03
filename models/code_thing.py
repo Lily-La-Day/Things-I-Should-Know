@@ -14,7 +14,7 @@ class CodeThing(db.Model, BaseModel):
     explanation = db.Column(db.Text)
     link = db.Column(db.String(120),)
 
-class CodeThingsSchema(ma.ModelSchema, BaseSchema):
+class CodeThingSchema(ma.ModelSchema, BaseSchema):
 
     class Meta:
         model = CodeThing

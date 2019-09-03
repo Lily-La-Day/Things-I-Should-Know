@@ -49,14 +49,14 @@ higher_order_function = CodeThing(
     link='https://eloquentjavascript.net/05_higher_order.html'
 )
 
-shared_state = Code_Thing(
+shared_state = CodeThing(
     type='Concept',
     name='Shared State',
     explanation='A shared state is any variable, object, or memory space that exists in a shared scope. Any non-constant variable used by multiple separate scopes, including the global scope and closure scopes, is considered to be in a shared state. In functional programming, shared states should be avoided.  ',
     link='https://www.quora.com/What-is-the-meaning-of-shared-state-and-the-side-effects-in-functional-programming'
 )
 
-closure = Code_Thing(
+closure = CodeThing(
     type='Concept',
     name='Closure',
     explanation='A closure is a persistent scope which holds on to local variables even after the code execution has moved out of that block.',
@@ -64,13 +64,13 @@ closure = Code_Thing(
 
 )
 
-big_o_notation = Code_Thing(
+big_o_notation = CodeThing(
 
 )
 
 
 
-promise = Code_Thing(
+promise = CodeThing(
 
 )
 
